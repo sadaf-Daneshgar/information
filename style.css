@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.hero {
+  background-image: url('./image/nody-عکس-از-بین-الحرمین-در-روز-1662749110.jpg');
+  height: 90vw;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 2rem;
+}
+
+.detail {
+  text-align: justify;
+  line-height: 1.7;
+}
+
+section {
+  padding: 14px;
+  font-size: 22px;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.pic {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+  margin: 20px 0;
+  text-align: center;
+  border: none;
+}
+
+.two, .three {
+  background-image: url('./image/MediaBaz.net-mazhabi-079.png');
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #f1f1f1;
+  border-top-left-radius: 100px;
+  border-bottom-right-radius: 65px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+  margin-bottom: 2rem;
+}
+
+.two:hover, .three:hover {
+  box-shadow: 0 0 20px 0 #4361ee;
+  background-color: #edf2f4;
+}
+
+.four {
+  border-radius: 20px;
+  border: 1px solid #f1f1f1;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+  margin-bottom: 2rem;
+}
+
+.four:hover {
+  background-color: #edf2f4;
+}
+
+.pics {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+  margin: 3rem 0;
+  text-align: center;
+  border: none;
+}
