@@ -38,6 +38,10 @@ section {
   border: none;
 }
 
+.pic:hover {
+  box-shadow: 0 0 20px 0 #4361ee;
+}
+
 .two, .three {
   background-image: url('./image/MediaBaz.net-mazhabi-079.png');
   width: 100%;
@@ -69,10 +73,48 @@ section {
 
 .pics {
   width: 100%;
-  height: auto;
+  height: 100%;
   border-radius: 10px;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
   margin: 3rem 0;
   text-align: center;
   border: none;
+}
+
+.footer {
+  text-align: left;
+  padding: 2rem;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.footer h2, .foot {
+  color : #4361ee;
+}
+
+.footer h2:hover {
+  color: #f72585;
+  cursor: pointer;
+  border: 1px solid #f72585;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1.5em;
+  cursor: pointer;
+}
+
+.icons:hover {
+  transform: scale(1.2);
+}
+
+.foot {
+  padding: 20px 0;
 }

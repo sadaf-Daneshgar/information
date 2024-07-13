@@ -4,7 +4,7 @@ const images = [
     './image/haram.jpg',
     './image/اصغر.jpg',
     './image/اصغر2.jpg',
-    './image/امام زمان.webp',
+    './image/images.jpeg',
     './image/nody-عکس-از-بین-الحرمین-در-روز-1662749110.jpg'
 ]
 
