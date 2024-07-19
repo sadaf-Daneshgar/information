@@ -118,3 +118,16 @@ a {
 .foot {
   padding: 20px 0;
 }
+
+@keyframes exampleAnimation {
+  0% { color: rgb(14, 45, 99); }
+  100% { color: rgb(255, 0, 0); }
+}
+
+h1, h2 {
+  color: rgb(14, 45, 99); 
+  font-size: 40px;
+  animation-name: exampleAnimation;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
